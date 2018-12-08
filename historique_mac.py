@@ -19,7 +19,7 @@ if not re.fullmatch(r"(?:[A-F0-9]{2}:){5}[A-F0-9]{2}",client):
 
 cred = credentials.Certificate("cle_db.json")
 
-firebase_admin.initialize_app(cred,{ "databaseURL" : "https://routeur-18013.firebaseio.com/"})
+firebase_admin.initialize_app(cred,{ "databaseURL" : "https://routeur-3db4c.firebaseio.com/"})
 
 #extraction des donnees de tout les bancs
 dataBancs = db.reference("/Bancs").get()
